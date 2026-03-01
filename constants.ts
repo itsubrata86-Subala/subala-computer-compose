@@ -1,4 +1,4 @@
-import { BusinessInfo } from './types';
+import { BusinessInfo, DownloadableFile } from './types';
 
 export const BUSINESS_DATA: BusinessInfo = {
   "id": "subala-001",
@@ -69,5 +69,40 @@ export const PRICING_LIST = [
   {
     "item": "ইমেইল পাঠানো",
     "price": "১০"
+  }
+];
+
+export const DOWNLOADABLE_FILES: DownloadableFile[] = [
+  {
+    "id": "f1",
+    "name": "চাকরির আবেদন ফর্ম",
+    "description": "সাধারণ সরকারি চাকরির আবেদন ফর্ম (PDF)",
+    "price": "১০"
+  },
+  {
+    "id": "f2",
+    "name": "জীবনবৃত্তান্ত টেমপ্লেট",
+    "description": "আধুনিক সিভি বা জীবনবৃত্তান্তের ফরম্যাট (MS Word)",
+    "price": "২০"
+  },
+  {
+    "id": "f3",
+    "name": "প্রত্যয়ন পত্রের নমুনা",
+    "description": "বিভিন্ন ধরনের প্রত্যয়ন পত্রের বাংলা ফরম্যাট",
+    "price": "১৫"
+  },
+  {
+    "id": "1772384163518",
+    "name": "শর্ট মুভি",
+    "description": "বিবরণ দিন",
+    "price": "০",
+    "category": "অন্যান্য"
+  },
+  {
+    "id": "1772384166373",
+    "name": "নিউজ",
+    "description": "বিবরণ দিন",
+    "price": "০",
+    "category": "অন্যান্য"
   }
 ];
