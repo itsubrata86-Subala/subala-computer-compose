@@ -77,7 +77,8 @@ export const DOWNLOADABLE_FILES: DownloadableFile[] = [
     "id": "f1",
     "name": "চাকরির আবেদন ফর্ম",
     "description": "সাধারণ সরকারি চাকরির আবেদন ফর্ম (PDF)",
-    "price": "১০"
+    "price": "১০",
+    "category": "অন্যান্য"
   },
   {
     "id": "f2",
@@ -96,13 +97,27 @@ export const DOWNLOADABLE_FILES: DownloadableFile[] = [
     "name": "শর্ট মুভি",
     "description": "বিবরণ দিন",
     "price": "০",
-    "category": "অন্যান্য"
+    "category": "তামিল মুভি"
   },
   {
     "id": "1772384166373",
     "name": "নিউজ",
     "description": "বিবরণ দিন",
     "price": "০",
+    "category": "অন্যান্য"
+  },
+  {
+    "id": "1772392463741",
+    "name": "নাটক",
+    "description": "বিবরণ দিন",
+    "price": "৫০",
+    "category": "শর্ট নাটক ক্লিপ"
+  },
+  {
+    "id": "1772392467994",
+    "name": "হিন্দি মুভি",
+    "description": "বিবরণ দিন",
+    "price": "৩০",
     "category": "অন্যান্য"
   }
 ];
